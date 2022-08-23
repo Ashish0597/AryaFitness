@@ -1,0 +1,447 @@
+/* for body */
+
+body {
+    font-family: "Lato", sans-serif;
+    font-weight: 100;
+    background-color: black;
+}
+
+
+/*<<<<<<<<<<<<<<<< logo-css >>>>>>>>>>>>>> */
+
+.logo-img{
+    width: 180px;
+    position: absolute;
+    top: 5px;
+    z-index: 2;
+}
+
+/*<<<<<<<<<<<<<<<<<<< navbaar >>>>>>>>>>>>>>>>> */
+
+.ul-nav{
+    margin-left: 23em;
+    height: 0em;
+}
+
+.li-nav{
+    display: inline-block;
+    list-style: none;
+    text-decoration: none;
+    line-height: 150px;
+    margin-left: 30px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.a-nav{
+    z-index: 2;
+    font-size: 20px;
+    color: white;
+    position: relative;
+    text-decoration: none;
+    -webkit-text-stroke: 1px;
+}
+.a-nav:hover {
+    text-decoration: underline;
+}
+.a-nav-contact{
+    font-size: 20px;
+    color: white;
+    position: relative;
+    text-decoration: none;
+    -webkit-text-stroke: 1px;
+}
+.nav-btn{
+    font-size: 20px;
+    border: 1px solid white;
+    width: 10em;
+    height: 2.5em;
+    color: white;
+    background-color: #ff1313;
+    position: absolute;
+    top: 60px;
+    transition: 0.1s ease-in-out;
+    cursor: pointer;
+    z-index: 2;
+}
+
+
+.nav-btn:hover{
+    box-shadow: 0 0 5px #ff1313,
+                0 0 25px #eb3232,
+                0 0 50px #e65252,
+                0 0 80px #ee7a7a;
+}
+
+/* <<<<<<< icon for pho >>>>>>>>>. */
+.ul-nav-icon{
+    visibility: hidden;
+    margin-left: 23em;
+    height: 0em;
+}
+
+.li-nav-icon{
+    display: inline-block;
+    list-style: none;
+    text-decoration: none;
+    line-height: 150px;
+    margin-left: 30px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.a-nav-icon{
+    z-index: 2;
+    font-size: 20px;
+    color: white;
+    position: relative;
+    text-decoration: none;
+    -webkit-text-stroke: 1px;
+}
+.a-nav-icon:hover{
+    text-decoration: underline;
+}
+.a-nav-contact-icon{
+    font-size: 20px;
+    color: white;
+    position: relative;
+    text-decoration: none;
+    -webkit-text-stroke: 1px;
+}
+.nav-btn-icon{
+    font-size: 20px;
+    border: 1px solid white;
+    width: 10em;
+    height: 2.5em;
+    color: white;
+    background-color: #ff1313;
+    position: absolute;
+    top: 60px;
+    transition: 0.1s ease-in-out;
+    cursor: pointer;
+    z-index: 2;
+}
+
+
+.nav-btn-icon:hover{
+    box-shadow: 0 0 5px #ff1313,
+                0 0 25px #eb3232,
+                0 0 50px #e65252,
+                0 0 80px #ee7a7a;
+}
+
+/* <<<<<<<<<<<< header >>>>>>>>>>>>>*/
+
+.video-box{ 
+    opacity: 0.15;
+    margin-top: -2em;
+}
+
+.main-header{
+        height: 1px;
+}
+
+
+.head-text{
+        animation-name: slide;
+        animation-duration: 5s;
+}
+/* header animation */
+@keyframes slide{
+        from{margin-left: -80%;}
+
+        to{margin-left: 7.2%;}
+}
+
+.head-text{
+        position: relative;
+        top: -23em;
+        margin-left: 6em;
+}
+
+.head{
+        color: white;
+        font-size: 70px;
+        -webkit-text-fill-color: transparent;
+        -webkit-text-stroke: 1px;
+}
+
+
+.head1{
+        color: white;
+        font-size: 110px;
+        margin-top: -0.5em;
+}
+
+.head-btn{
+        font-size: 20px;
+        margin-top: -3em;
+        background-color: transparent;
+        color: white;
+        border: 1px solid white;
+        padding: 15px 32px;
+        box-shadow: inset 0 0 0 0 #ff1313;
+        transition: ease-out 0.4s;
+}
+
+.head-btn:hover{
+        background-color:  #ff1313;
+        transition: all 1s;
+        box-shadow: inset 0 0 0 27px #ff1313;
+        font-size: 20px;
+}
+
+
+/*<<<<<<<<<<<< offer >>>>>>>>>>*/
+
+.offer-section{
+    top: 130%;
+    position: relative;
+}
+
+.offer-h1{
+    text-align: center;
+    color: white;
+    font-size: 130px;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 1px;
+    margin-top: 0em;
+}
+
+.offer-img{
+    text-align: center;
+    margin-top: -3em;
+    display: inline-flex;
+    color: white;
+    width: 90%;
+    margin-left: 4em;
+}
+
+
+
+/* <<<<<<<< pricing >>>>>>>>>*/
+
+.pricing{
+    color:white;
+    top: 130%;
+    position: relative;
+}
+
+.three-month, .six-month , .twelve-month{
+    border: 0.5px solid #ffffff;
+    padding: 4em;
+}
+
+
+.price-text{
+    text-align: center;
+    color: white;
+    font-size: 80px;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 1px;
+}
+
+.price-section{
+    display: flex;
+    margin-left: 4em;
+}
+
+.price-ul{
+    list-style-type: none;
+}
+
+
+.price-icon{
+    color: #ff1313;
+    font-size: 50px;
+    margin-left: 1em;
+}
+
+
+.month{
+    font-size: 30px;
+    margin-left: 1.1em;
+}
+
+
+.p-month{
+    color: #ff1313;
+    margin-left: 1.3em;
+}
+.price-sub{
+    color: white;
+    font-size: 11px;
+}
+
+.price-btn{
+    width: 100%;
+    font-size: 20px;
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    padding: 15px 32px;
+    box-shadow: inset 0 0 0 0 #ff1313;
+    transition: ease-out 0.4s;
+}
+
+.price-btn2{
+    width: 100%;
+    font-size: 20px;
+    background-color:#ff1313;
+    color: white;
+    border: 1px solid white;
+    padding: 15px 32px;
+    box-shadow: inset 0 0 0 0 #ff1313;
+    transition: ease-out 0.4s;
+}
+
+.price-link{
+    color: white;
+    text-decoration: none;
+}
+
+.price-btn:hover{
+    background-color:#ff1313;
+    transition: all 1s;
+    box-shadow: inset 0 0 0 27px #ff1313;
+    font-size: 20px;
+}
+
+.price-btn2:hover{
+    background-color:  #ff1313;
+    transition: all 1s;
+    box-shadow: inset 0 0 0 27px #000000;
+    font-size: 20px;
+}
+
+
+/*<<<<<<<<<<<<<<< about >>>>>>>>>>>>*/
+
+.about{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 6em;
+    top: 130%;
+    position: relative;
+}
+
+.about-img{
+    margin-left: 4em;
+    width: 100%;
+}
+
+.about-text{
+    color: white;
+    margin-left: 5em;
+}
+
+.abt-h1{
+    font-size: 60px;
+}
+
+.abt-p{
+    font-size: 15px;
+}
+
+.about-btn{
+    text-align: center;
+    width: 50%;
+    font-size: 20px;
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    padding: 15px 32px;
+    box-shadow: inset 0 0 0 0 #ff1313;
+    transition: ease-out 0.4s;
+}
+
+.about-btn:hover{
+    background-color:  #ff1313;
+    transition: all 1s;
+    box-shadow: inset 0 0 0 27px #ff1313;
+    font-size: 20px;
+}
+
+
+/* <<<<<<<<<<<< footer >>>>>>>>> */
+
+
+.footer{
+    color: white;
+    margin-top: 65em;
+    line-height: 6em;
+}
+
+.foot-text{
+    text-align: center;
+}
+
+
+.f-h1 {
+    font-size: 200px;
+    position: relative;
+    text-shadow: 0px 0px 8px #ff1313;
+    color: #000000;
+}
+
+.f-h1 .inside {
+    font-size: 100px;
+    background-image: linear-gradient(180deg, white 10%, #3f3737 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    text-fill-color: transparent;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
+    text-shadow: none;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+}
+
+.ul-footer{
+    margin-top: -1em;
+    margin-left: 24em;
+}
+
+.li-footer{
+    display: inline-block;
+    list-style: none;
+    text-decoration: none;
+    margin-left: 30px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.a-footer{
+    font-size: 15px;
+    color: white;
+    position: relative;
+    text-decoration: none;
+    -webkit-text-stroke: 1px;
+}
+.a-footer:hover {
+    text-decoration: underline;
+}
+
+.social-media{
+    text-align: center;
+    font-size: 25px;
+    margin-top: -1em;
+}
+
+.foot-i {
+    color: #e75757;
+    padding: 0 20px;
+}
+.foot-i:hover{
+    color: #ff1313;
+}
+
+
+/*  */
+
+.lf-h6{
+    text-align: center;
+    color: white;
+}

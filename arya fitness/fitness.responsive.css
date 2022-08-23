@@ -1,0 +1,597 @@
+/* <<<<<< 1200 >>>>> */
+@media screen and (max-width: 1200px){
+    .nav-btn{
+        font-size: 15px;
+        border: 1px solid white;
+    }
+    
+}
+/* <<<<<<<<<<<, 1080 >>>>>>>>>>>>>. */
+@media screen and ( max-width: 1080px){
+    .logo-img{
+        width: 150px;
+    }
+    .ul-nav{
+        margin-left: 13em;
+    }
+    .head-text{
+        top: -23em;
+        margin-left: 4em;
+    }
+    .head{
+        font-size: 60px;
+    }
+    .head1{
+        font-size: 100px;
+    }
+    /* offer */
+    .offer-section{
+    top: 115%;
+    }
+    .offer-h1{
+    font-size: 100px;
+    }
+    .offer-img{    
+    margin-left: 2em;
+    }
+    .off-imgg{
+        width: 90%;
+    }
+    /* price */
+    .pricing{
+        top: 115%;
+    }
+    .price-text{
+        font-size: 60px;
+    }
+    .three-month, .six-month , .twelve-month{
+        padding: 1em;
+    }
+    
+    .price-btn{
+    width: 100%;
+    font-size: 16px;
+    padding: 12px 28px;
+    }
+    .price-btn2{
+    width: 100%;
+    font-size: 16px;
+    padding: 12px 28px;
+    }
+    /* about */
+    .about{
+        top: 115%;
+    }
+    .about-img{
+    width: 80%;
+    }
+    .abt-h1{
+        font-size: 40px;
+    }
+    .abt-p{
+        font-size: 12px;
+    }
+    .about-btn{
+        width: 50%;
+        font-size: 15px;
+        padding: 10px 28px;
+    }
+    /* footer */
+    .footer{
+        margin-top: 50em;
+    }
+    .ul-footer{
+        margin-left: 15em;
+    }
+}
+
+
+/* <<<<<<<< 1001 >>>>>>>>> */
+
+@media screen and ( max-width: 1001px){
+    .logo-img{
+        width: 140px;
+    }
+    .ul-nav{
+        margin-left: 11em;
+    }
+    .head-text{
+        top: -23em;
+        margin-left: 4em;
+    }
+    .head{
+        font-size: 60px;
+    }
+    .head1{
+        font-size: 100px;
+    }
+}
+
+
+
+/* <<<<<<<<<<  930  >>>>>>>>>>> */
+@media screen and ( max-width: 930px){
+    .logo-img{
+        width: 150px;
+    }
+    .ul-nav{
+        display: none;
+    }
+    .ul-nav-icon{
+        visibility: visible;
+    }
+    
+    .li-nav-icon{
+    margin-top: 4em;
+    }
+    .nav-btn-icon{
+    font-size: 15px;
+    width: 10em
+    }
+    .head{
+        font-size: 55px;
+    }
+    .head1{
+        font-size: 90px;
+    }
+     /* offer */
+    .offer-section{
+        top: 108%;
+    }
+    .offer-h1{
+        font-size: 90px;
+    }
+       /* price */
+    .pricing{
+        top: 105%;
+    }
+    .price-text{
+        font-size: 50;
+    }
+    .three-month, .six-month , .twelve-month{
+        padding: 0.5;
+    }
+    
+    .price-btn{
+    width: 100%;
+    font-size: 13px;
+    padding: 10px 25px;
+    }
+    .price-btn2{
+    width: 100%;
+    font-size: 13px;
+    padding: 10px 25px;
+    }
+     /* footer */
+    .footer{
+        margin-top: 45em;
+    }
+    .ul-footer{
+        margin-left: 10em;
+    }
+    .f-h1 {
+        font-size: 180px;
+    }
+}
+
+/*<<<<<<<<<<<<<< 830 >>>>>>>>>>>>  */
+
+@media screen and (max-width:830px){
+    .logo-img{
+        width: 130px;
+    }
+    .head-text{
+        top: -16em;
+    }
+    .li-nav-icon{
+        margin-top: 3em;
+        }
+    .nav-btn-icon{display: none;}
+    .head{
+        font-size: 45px;
+    }
+    .head1{
+        font-size: 80px;
+    }
+        /* offer */
+        .offer-section{
+            top: 90%;
+        }
+        .offer-h1{
+            font-size: 80px;
+        }
+
+          /* about */
+    .about{
+        top: 100%;
+    }
+       /* price */
+       .pricing{
+        top: 100%;
+    }
+    .price-text{
+        font-size: 50px;
+    }
+    
+
+
+       /* footer */
+       .footer{
+        margin-top: 43em;
+    }
+    .ul-footer{
+        margin-left: 10em;
+        font-size: 10px;
+    }
+    .f-h1 {
+        font-size: 170px;
+    }
+}
+
+/* <<<<<<<<< 700 >>>>>>>>>>>. */
+@media screen and (max-width:700px){
+    .logo-img{
+        width: 100px;
+    }
+    .head-text{
+        top: -12em;
+    }
+    .ul-nav-icon{
+        margin-left: 7em;
+    }
+    .li-nav-icon{
+        margin-top: 2em;
+        }
+    .head{
+        font-size: 30px;
+    }
+    .head1{
+        font-size: 50px;
+    }
+   
+.head-btn{
+    margin-top: -0.5em;
+}
+
+
+        /* offer */
+        .offer-img{
+            display: inline;
+        }
+        .offer-section{
+            top: 80%;
+            display: inline;
+        }
+        .offer-h1{
+            font-size: 70px;
+        }
+        .off-imgg{
+            width: 70%;
+            padding: 5px;
+        }
+
+        .of-h1{
+            font-size: 15px;
+        }
+        .of-p{
+            font-size: 15px;
+        }
+
+       /* price */
+        .pricing{
+        top: 85%;
+    }
+    
+    .price-section{
+        display: inline;  
+        margin-left: 2em;     
+    }
+    .three-month, .six-month , .twelve-month{
+        width: 60%;
+        padding: 5px;
+        margin-left: 9em;
+        margin-top: 8px;
+    }
+    .six-mont{
+        margin-top: 8px;
+    }
+    .twelve-month
+    {
+        margin-top: 8px;
+    }
+    .price-h1{
+        font-size: 40px;
+        text-align: center;
+    }
+
+    /* about */
+    .about{
+        top:90%;
+        display: inline-block;
+    }
+    
+       /* footer */
+       .footer{
+        margin-top: 38em;
+    }
+    .ul-footer{
+        margin-left: 4em;
+        font-size: 10px;
+    }
+    .f-h1 {
+        font-size: 170px;
+    }
+
+    .social-media{
+        font-size: 15px;
+        margin-top: -3em;
+    }
+}
+
+
+/* <<<<<<<<<< 590 >>>>>>>>>>>>> */
+
+@media screen and (max-width:590px){
+    .logo-img{
+        width: 80px;
+    }
+    .head-text{
+        top: -13em;
+    }
+    .ul-nav-icon{
+        margin-left: 7em;
+    }
+    .li-nav-icon{
+        margin-top: 2em;
+        }
+    .head{
+        font-size: 20px;
+    }
+    .head1{
+        font-size: 35px;
+    }
+   
+.head-btn{
+    margin-top: -1em;
+    font-size: 10px;
+}
+
+
+        /* offer */
+        .offer-section{
+            top: 70%;
+        }
+        .offer-h1{
+            font-size: 60px;
+        }
+        .off-imgg{
+            width: 60%;
+            padding: 5px;
+        }
+
+        .of-h1{
+            font-size: 13px;
+        }
+        .of-p{
+            font-size: 13px;
+        }
+
+       /* price */
+        .pricing{
+        top: 75%;
+    }
+    
+    .three-month, .six-month , .twelve-month{
+        margin-left: 6em;
+    }
+    .six-mont{
+        margin-top: 8px;
+    }
+    .twelve-month
+    {
+        margin-top: 8px;
+    }
+    .price-h1{
+        font-size: 40px;
+        text-align: center;
+    }
+
+    /* about */
+    .about{
+        top:80%;
+    }
+    
+.about-tex{
+    margin-left: 3em;
+}
+
+.abt-h1{
+    font-size: 50px;
+}
+
+.abt-p{
+    font-size: 15px;
+}
+    
+       /* footer */
+       .footer{
+        margin-top: 35em;
+    }
+    .ul-footer{
+        margin-left: 2em;
+        font-size: 5px;
+    }
+    .f-h1 {
+        font-size: 150px;
+    }
+    .inside{
+        font-size: 90px;
+    }
+
+    .social-media{
+        font-size: 10px;
+        margin-top: -4em;
+    }
+}
+
+
+@media screen and (max-width:520px){
+    .logo-img{
+        width: 80px;
+    }
+    .head-text{
+        top: -9em;
+    }
+    .ul-nav-icon{
+        margin-left: 7em;
+    }
+    .li-nav-icon{
+        margin-top: 2em;
+        }
+    .head{
+        font-size:20px;
+    }
+    .head1{
+        font-size: 30px;
+    }
+   
+.head-btn{
+    margin-top: -1em;
+    font-size: 8px;
+}
+}
+
+/* <<<<<< 500 >>>>>>>> */
+
+@media screen and (max-width:500px){
+
+     /* footer */
+     .footer{
+        margin-top: 35em;
+    }
+    .f-h1 {
+        font-size: 120px;
+    }
+    .f-h1 .inside{
+        font-size: 70px;
+    }
+
+    .social-media{
+        font-size: 10px;
+        margin-top: -4em;
+    }
+}
+
+
+/* <<<<<< 450 >>>>>>>> */
+
+@media screen and (max-width:450px){
+    .logo-img{
+        width: 60px;
+    }
+    .head-text{
+        top: -9em;
+    }
+    .ul-nav-icon{
+        margin-left: 4.5em;
+    }
+    .li-nav-icon{
+        margin-top: 2em;
+        }
+    .head{
+        font-size: 20px;
+    }
+    .head1{
+        font-size: 35px;
+    }
+   
+.head-btn{
+    margin-top: -1em;
+    font-size: 9px;
+    padding: 6px;
+}
+
+
+        /* offer */
+        .offer-section{
+            top: 50%;
+        }
+        .offer-h1{
+            font-size: 45px;
+        }
+        .off-imgg{
+            width: 70%;
+            padding: 5px;
+        }
+       /* price */
+        .pricing{
+        top: 58%;
+    }
+
+    /* about */
+    .about{
+        top:60%;
+    }
+    
+       /* footer */
+       .footer{
+        margin-top: 25em;
+    }
+    
+    .f-h1 {
+        font-size: 140px;
+    }
+    .inside{
+        font-size: 80px;
+    }
+}
+
+
+/* <<<<<< 400 >>>>>>>> */
+
+@media screen and (max-width:400px){
+    .ul-nav-icon{
+        font-size: 10px;
+    }
+    .head-text{
+        top: -7.5em;
+    }
+
+        /* offer */
+        .offer-section{
+            top: 45%;
+        }
+        .offer-h1{
+            font-size: 40px;
+        }
+        .of-h1{
+            font-size: 15px;
+        }
+        .of-p{
+            font-size: 15px;
+        }
+       /* price */
+        .pricing{
+        top: 50%;
+    }
+
+    /* about */
+    .about{
+        top:50%;
+    }
+    .about-btn{
+        font-size: 10px;
+    }
+    
+       /* footer */
+       .footer{
+        margin-top: 21em;
+    }
+    
+    .f-h1 {
+        font-size: 120px;
+    }
+    .inside{
+        font-size: 60px;
+    }
+}

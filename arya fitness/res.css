@@ -1,0 +1,314 @@
+
+
+/* header media screen */
+
+
+@media screen and (max-width: 1030px){
+
+    .ul-nav{
+        display: none;
+    }
+}
+
+
+@media screen and (max-width: 900px){
+.head-text{
+    margin-top: 1em;
+    top: -20em;
+}
+.head-text .head{
+    font-size: 50px;
+}
+.head-text .head1{
+    font-size: 80px;
+}
+
+.logo-img{
+    width: 130px;
+    position: absolute;
+    top: 5px;
+}
+}
+
+@media screen and (max-width: 730px){
+    .head-text{
+        margin-top: 3em;
+    }
+    .head-text .head{
+        font-size: 40px;
+    }
+    .head-text .head1{
+        font-size: 60px;
+    }
+    .head-text .head-btn{
+        width: 40%;
+        margin-top: 0.5em;
+    }
+.logo-img{
+    width: 80px;
+    position: absolute;
+    top: 5px;
+}
+    }
+    @media screen and (max-width: 700px){
+        .head-text{
+            margin-top: 5em;
+        }
+        .head-text .head{
+            font-size: 35px;
+        }
+        .head-text .head1{
+            font-size: 55px;
+        }
+        .head-text .head-btn{
+            
+            width: 40%;
+            margin-top: 0.8em;
+        }
+        
+    .logo-img{
+        width: 75px;
+        position: absolute;
+        top: 5px;
+    }
+        }
+
+  @media screen and (max-width: 600px){
+            .head-text{
+                margin-top: 6em;
+            }
+            .head-text .head{
+                font-size: 30px;
+            }
+            .head-text .head1{
+                font-size: 45px;
+            }
+            .head-text .head-btn{
+                width: 40%;
+                font-size: 10px;}
+            
+        .logo-img{
+            width: 60px;
+            position: absolute;
+        }
+            }
+
+    
+@media screen and (max-width: 430px){
+    .head-text{
+        margin-top: 11em;
+    }
+    .head-text .head{
+        font-size: 20px;
+    }
+    .head-text .head1{
+        font-size: 25px;
+    }
+    .head-text .head-btn{
+        width:60%;
+        font-size: 10px;}
+    
+.logo-img{
+    width: 60px;
+    position: absolute;
+}
+    }
+    
+
+
+
+@media screen and (max-width:375px){
+    .head-text{
+        margin-top: 12em;
+    }
+    .head-text .head{
+        font-size: 20px;
+    }
+    .head-text .head1{
+        font-size: 25px;
+    }
+    .head-text .head-btn{
+        width:70%;
+        padding: 10px;
+        font-size: 10px;}
+    
+.logo-img{
+    width: 60px;
+    position: absolute;
+}
+    }
+
+/* offer media screen */
+
+    
+@media screen and (max-width: 950px){
+    .offer-section{
+        text-align: center;
+    }
+    .offer-h1{
+        margin-top: -2em;
+        font-size: 50px;
+        text-align: center;
+    }
+    .offer-img{
+        display: inline;
+    }
+}
+
+ 
+@media screen and (max-width: 730px){
+    .offer-section{
+        text-align: center;
+    }
+    .offer-h1{
+        margin-top: -5em;
+        font-size: 50px;
+        text-align: center;
+    }
+
+}
+ 
+@media screen and (max-width: 470px){
+    .offer-section{
+        text-align: center;
+    }
+    .offer-h1{
+        margin-top: -8em;
+        font-size: 50px;
+        text-align: center;}
+}
+
+
+/* price media */
+
+
+@media screen and (max-width: 950px){
+    .three-month, .six-month , .twelve-month{
+        padding: 1em;
+    }
+}
+
+@media screen and (max-width: 730px){
+    .price-section{
+        display: inline;  
+        margin-left: 2em;     
+    }
+    .three-month, .six-month , .twelve-month{
+        width: 50%;
+        margin-left: 9em;
+        margin-top: 8px;
+    }
+    .six-mont{
+        margin-top: 8px;
+    }
+    .twelve-month
+    {
+        margin-top: 8px;
+    }
+    .price-h1{
+        font-size: 40px;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .price-section{
+        display: inline;  
+        margin-left: 3em;     
+    }
+    .three-month, .six-month , .twelve-month{
+        width: 50%;
+        margin-left: 9em;
+        margin-top: 10px;
+    }
+    .six-mont{
+        margin-top: 10px;
+    }
+    .twelve-month
+    {
+        margin-top: 8px;
+    }
+    .price-h1{
+        font-size: 40px;
+        text-align: center;
+    }
+    .price-btn , .price-btn2{
+        padding: 10px;
+    }
+}
+
+
+
+@media screen and (max-width: 430px){
+    .price-section{
+        display: inline;  
+        margin-left: 2em;     
+    }
+    .three-month, .six-month , .twelve-month{
+        width: 50%;
+        margin-left: 5em;
+        margin-top: 8px;
+    }
+    .six-mont{
+        margin-top: 8px;
+    }
+    .twelve-month
+    {
+        margin-top: 8px;
+    }
+    .price-h1{
+        font-size: 40px;
+        text-align: center;
+    }
+}
+
+
+@media screen and (max-width:375px){
+    .price-btn , .price-btn2{
+        padding: 8px;
+    }
+}
+
+
+/* about */
+
+@media screen and (max-width: 950px){
+    .about-text ,.about-img{
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 730px){
+    .about{
+        display: inline;
+    }
+    .about-img{
+        margin-top: 5em;
+        margin-left: 9em;
+    }
+    .about-text{
+        margin-left: 9em;
+    }
+    .about-btn{
+        text-align: center;
+        width: 100%;
+    }
+}
+
+
+@media screen and (max-width: 430px){
+    .about{
+        display: inline;
+    }
+    .about-img{
+        margin-top: 5em;
+        margin-left: 5em;
+    }
+    .about-text{
+        margin-left: 5em;
+    }
+    .about-btn{
+        text-align: center;
+        width: 100%;
+    }
+}
